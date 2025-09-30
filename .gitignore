@@ -1,0 +1,41 @@
+# Obsidian workspace settings (user-specific)
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# Plugins (comment out if you want to sync plugins)
+.obsidian/plugins/
+
+# Hotkeys (user-specific)
+.obsidian/hotkeys.json
+
+# Graph view settings (user-specific)
+.obsidian/graph.json
+
+# Core plugins settings (user-specific preferences)
+.obsidian/core-plugins.json
+.obsidian/core-plugins-migration.json
+
+# Sync settings
+.obsidian/sync-config.json
+
+# File recovery
+.obsidian/.file-recovery/
+
+# Trash folder
+.trash/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*~
+~$*
