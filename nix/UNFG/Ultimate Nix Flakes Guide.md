@@ -18,9 +18,11 @@ nix flake init
 
 ### Nix commands
 
-1. `nix run` -> runs  a packaged binary.
-2. `nix build` -> builds a package.
-3.  sdf
+1. `nix run` -> runs  a packaged binary. `outputs.packages."SYSTEM".default`
+2. `nix build` -> builds a package. `outputs.packages."SYSTEM".default`
+3. `nix develop` -> activates a dev shell. `outputs.devShells."SYSTEM".default`
+4. `nixos-rebuild` -> builds a nixos system. `outputs.nixosConfiguration."HOSTNAME"`
+5. `home-manager` -> builds a home configuration. `outputs.homeConfiguration."USERNAME"`
 
 ### Ref
 
